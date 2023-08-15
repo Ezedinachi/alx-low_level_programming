@@ -2,8 +2,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - carries all the code in this file
- * @print_alphabet: prints all alphabets in small letters
+ * print_alphabet - Entry point
  */
 void print_alphabet(void)
 {
