@@ -2,12 +2,12 @@
 #include <unistd.h>
 #include "main.h"
 /**
- *
- *
+ * main - carries all the code in this file
+ * @print_alphabet: prints all alphabets in small letters
  */
 void print_alphabet(void)
 {
-	char d = 97 ;
+	char d = 97;
 	
 	while (d <= 122)
 	{
@@ -15,5 +15,4 @@ void print_alphabet(void)
 		d++;
 	}
 	_putchar('\n');
-	
 }
